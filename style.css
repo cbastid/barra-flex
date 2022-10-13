@@ -1,0 +1,45 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav {
+
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+.nav-links {
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+}
+
+.nav-title {
+    color: antiquewhite;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover {
+    color: yellow;
+}
+
+.boton1 {
+    color: antiquewhite;
+    background-color: dodgerblue;
+    box-shadow: 2px 2px 2px 1px rgba(6, 6, 12, 0.767);
+    width: 150px;
+
+}
